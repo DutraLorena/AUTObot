@@ -1,0 +1,6 @@
+export default function VehicleResult({ vehicleData, onNewSearch }) {
+  if (!vehicleData) return null;
+
+  return (
+    <div className="card" style={{ maxWidth: '600px', margin: '0 auto' }}>
+      <
